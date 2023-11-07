@@ -1,0 +1,51 @@
+/* Add this CSS to your component or a separate stylesheet */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+    width: 75%;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .col-md-2 {
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .fa-solid.fa-star {
+    font-size: 1.5em;
+  }
+  
+  h6 {
+    color: green;
+    margin: 5px 0;
+  }
+  
+  del {
+    color: #999;
+  }
+  
+  /* Add more styles as needed */
+  

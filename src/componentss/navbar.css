@@ -1,0 +1,46 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #6dabb3;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the height of the logo */
+    margin-right: 10px;
+    border: 0px;
+  }
+  .logo h6{
+    color: black;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #ffcc00; /* Change the color on hover */
+  }
+  

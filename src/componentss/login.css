@@ -1,0 +1,118 @@
+#CONTACT{
+  background-color: lavender;
+  
+}
+
+.modal {
+    display: block; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border: 1px solid ;
+    z-index: 1000;
+}
+  
+  
+  .modal-content {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #0f7784;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  
+  form {
+      display: flex; 
+     flex-direction: column;  
+  }
+  
+  /* input {
+    /* margin-bottom: 10px;
+    padding: 8px; */
+    input {
+        /* padding: 10px;
+        margin-bottom: 15px; */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+Button {
+    background-color: #007bff; 
+    color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+      button:hover {
+        background-color: #0056b3; 
+      } 
+/* Add these styles to your CSS */
+
+.modal-content {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* h5 {
+    color: #e44d26; /* A shade of red */
+   */
+  
+
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .close:hover {
+    color: #e44d26; /* Red color on hover */
+  }
+  
+  
+  .modal-content {
+    animation: fadeInUp 0.3s ease;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+   
